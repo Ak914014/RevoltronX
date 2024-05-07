@@ -1,0 +1,31 @@
+.dark-mode-btns {
+    background-color: black;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+}
+
+.dark-mode-btns:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.nav-container {
+
+    background-color: rgb(31, 30, 30);
+    height: 10vh;
+    width: 100vw;
+    padding: 1vw;
+
+}
+
+a {
+    color: white;
+    font-weight: 900;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: bisque;
+}

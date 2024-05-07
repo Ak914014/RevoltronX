@@ -1,0 +1,84 @@
+.mainDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 5.2rem;
+    height: 400px;
+    width: 350px;
+}
+
+.card-news-text {
+    line-height: 17px;
+    font-size: 13px;
+}
+
+.card-date {
+
+    margin-top: -10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-img {
+
+    height: 180px;
+
+}
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .error-container {
+    text-align: center;
+  }
+  
+
+.card-title {
+
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+@media screen and (max-width:578px) {
+    .card {
+        margin-left: 5.2rem;
+        height: 400px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:503px) {
+    .card {
+        margin-left: 4.2rem;
+    }
+}
+
+@media screen and (max-width:469px) {
+    .card {
+        margin-left: 3.2rem;
+    }
+}
+
+@media screen and (max-width:437px) {
+    .card {
+        margin-left: 2.2rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .card {
+        margin-left: 1.2rem;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .card {
+        margin-left: 1.2rem;
+        height: 420px;
+        width: 330px;
+    }
+}
